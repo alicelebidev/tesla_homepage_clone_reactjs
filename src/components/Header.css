@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    background-color: transparent;
+    background: none;
+    position: fixed;
+    width: 100vw;
+    margin: 15px;
+    margin-top: 15px;
+    top: 0;
+    z-index: 100; /* Always stay on top */
+    inline-size: -webkit-fill-available;
+}
+
+.header__logo {
+    margin-top: 7px;
+    width: 100px;
+    height: 24px;
+}
+
+.header__center {
+    display: flex;
+    flex: 1; /* Strech as much as possible */
+    justify-content: center;
+    font-weight: 600;
+}
+
+.header__center > p {
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.header__right > p {
+    margin: 10px;
+}
