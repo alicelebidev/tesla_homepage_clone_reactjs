@@ -2,4 +2,4 @@
 This is a clone of Tesla homepage implemented with React.js
 
 # How do I run it?
-Clone it and run `npm start` from console.
+Clone it and then run `npm install` `npm start` respectively.
